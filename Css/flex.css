@@ -1,0 +1,56 @@
+
+body,
+.section-nav,
+.right-nav,
+.right-nav .menu,
+.right-nav .menu li,
+.right-nav .menu li a,
+.left-nav .fonts,
+.left-nav .avatar,
+.left-nav .sun,
+.left-nav .search {
+  display: flex;
+}
+body,
+.right-nav .menu li,
+.right-nav .menu li a,
+.left-nav .fonts,
+.left-nav .avatar,
+.left-nav .sun,
+.left-nav .search {
+  justify-content: center;
+}
+.right-nav .menu,
+.right-nav .menu li,
+.right-nav .menu li a,
+.left-nav .fonts,
+.left-nav .avatar,
+.left-nav .sun,
+.left-nav .search {
+  align-items: center;
+}
+.section-nav,
+.right-nav .menu {
+  justify-content: space-around;
+}
+.section-nav,
+.right-nav .logo,
+.right-nav .logo img,
+.right-nav .menu li,
+.right-nav .menu li a,
+.left-nav .fonts {
+  width: 100%;
+  height: 100%;
+}
+
+.right-nav,
+.right-nav .logo-nav,
+.right-nav .menu-nav,
+.right-nav .menu,
+.left-nav ,
+.left-nav .avatar,
+.left-nav .sun,
+.left-nav .search {
+  height:100%;
+}
+
